@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+To view a live version click [>here<](https://lytvyntsiv.github.io/react_todo-app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
