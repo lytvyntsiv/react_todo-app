@@ -1,0 +1,28 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+
+  margin: 0;
+  background-color: #d4d6dd;
+}
+
+button {
+  cursor: pointer;
+}
+
+.page {
+  display: flex;
+
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.app {
+  width: 400px;
+  margin: auto;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+@import url(./components/AddPanel/add-panel.scss);

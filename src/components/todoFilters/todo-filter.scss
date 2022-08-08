@@ -1,0 +1,20 @@
+.todo-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -8px;
+
+  &__amount {
+    margin: 0;
+  }
+
+  &__buttons-wrap {
+    display: flex;
+  }
+
+  &__button {
+    border: none;
+    background: none;
+    line-height: 0;
+    color: #6262c6;
+  }
+}

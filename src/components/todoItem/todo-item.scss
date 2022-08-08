@@ -1,0 +1,77 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__button {
+    min-width: 25px;
+    height: 25px;
+    opacity: 0;
+
+    border: none;
+    background: none;
+    background-image: url('../../icons/delete-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__checkbox {
+    position: relative;
+  }
+  
+  &__label {
+    margin-left: 30px;
+    
+    &::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 20px;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      background: url('../../icons/check-svgrepo-com--f.svg') no-repeat 50%/contain;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 20px;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      opacity: 0;
+      background: url('../../icons/check-svgrepo-com--t.svg') no-repeat 50%/contain;
+    }
+  }
+
+  &__input {
+    appearance: none;
+    position: absolute;
+  }
+
+  &__text {
+    border: none;
+    border-radius: 6px;
+    background-color: #eee;
+    padding: 5px;
+  }
+}
+
+.todo-item:hover > .todo-item__button {
+  opacity: 1;
+}
+
+.todo-item__input:checked + .todo-item__label::after {
+  opacity: 1;
+}

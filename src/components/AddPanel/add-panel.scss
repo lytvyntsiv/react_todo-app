@@ -1,0 +1,79 @@
+.add-panel {
+  margin-bottom: 15px;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    margin-bottom: 15px;
+  }
+
+  &__input {
+    padding: 16px 4px 16px 40px;
+    width: 100%;
+
+    color: #000;
+
+    border: none;
+    border-radius: 6px;
+    background-color: #eee;
+    background-image: url('../../icons/text-document-add-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 12px 15px;
+
+    &:focus {
+      outline: none;
+      padding: 16px 4px 16px 40px;
+      background-color: #dcdcdc;
+    }
+  }
+
+  &__button {
+    width: 25px;
+    height: 25px;
+
+    border: none;
+    background-color: #eee;
+    background-image: url('../../icons/add-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__filters  {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dcdcdc;
+  }
+
+  &__action {
+    border: none;
+    background: none;
+
+    &--complete {
+      display: flex;
+      gap: 3px;
+      padding: 0;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 16px;
+        opacity: .2;
+        background: url('../../icons/done-all-svgrepo-com.svg') no-repeat 50%/contain;
+      }
+
+      &:hover::before {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      color: #6262c6;
+    }
+  }
+}
