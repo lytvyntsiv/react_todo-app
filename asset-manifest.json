@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react_todo-app/static/css/main.0fdb1582.css",
+    "main.js": "/react_todo-app/static/js/main.7a598ae4.js",
+    "static/media/text-document-add-icon.svg": "/react_todo-app/static/media/text-document-add-icon.a38eb1c824c6b52aba5c.svg",
+    "static/media/delete-svgrepo-com.svg": "/react_todo-app/static/media/delete-svgrepo-com.b256446648d57cbd032a.svg",
+    "static/media/add-svgrepo-com.svg": "/react_todo-app/static/media/add-svgrepo-com.a1ad828c5634b2923f88.svg",
+    "static/media/check-svgrepo-com--t.svg": "/react_todo-app/static/media/check-svgrepo-com--t.d3140f42079c52b1d00c.svg",
+    "index.html": "/react_todo-app/index.html",
+    "static/media/check-svgrepo-com--f.svg": "/react_todo-app/static/media/check-svgrepo-com--f.3388135d647485d4c900.svg",
+    "static/media/done-all-svgrepo-com.svg": "/react_todo-app/static/media/done-all-svgrepo-com.b864dd70cb68bbf5fda3.svg",
+    "main.0fdb1582.css.map": "/react_todo-app/static/css/main.0fdb1582.css.map",
+    "main.7a598ae4.js.map": "/react_todo-app/static/js/main.7a598ae4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fdb1582.css",
+    "static/js/main.7a598ae4.js"
+  ]
+}
